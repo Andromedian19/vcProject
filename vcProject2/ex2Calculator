@@ -1,0 +1,19 @@
+package com.kevin.test;
+
+public class ex2Calculator {
+    public static void main(String[] args) {
+        int kor1, kor2, kor3;
+        int total;
+        float avg;
+
+        kor1 = 50;
+        kor2 = 60;
+        kor3 = 90;
+
+        total = kor1 + kor2 + kor3;
+        avg = total /3.0f;
+
+        System.out.printf("total : %d\n",total);
+        System.out.printf("avg : %6.2f\n",avg);
+        }   
+    }
